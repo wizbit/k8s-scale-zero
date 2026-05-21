@@ -5,7 +5,7 @@ metadata:
   namespace: demo
 spec:
   routes:
-    - match: Host(`demo.docker.localhost`)
+    - match: Host(`scale.docker.localhost`)
       kind: Rule
       services:
         - name: keda-add-ons-http-interceptor-proxy
